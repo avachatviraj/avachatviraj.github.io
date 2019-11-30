@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Karla|Ultra&display=swap');
+
+body{
+  font-family: 'Karla', sans-serif;
+  background: #ffffff;
+}
+
+.logo{
+  text-align: center;
+  margin: 50px 0;
+}
+
+.logo img{
+  width: 150px;
+  border-radius: 105px;
+  margin:  0 0 25px 0;
+}
+
+.logo h1{
+  font-family: 'Ultra', serif;
+  color: #111111;
+  font-size: 3.5rem;
+}
+
+.about-img{
+  text-align: center;
+}
+
+.about-img img{
+  width:50%;
+}
+
+.about-desc{
+  text-align: center;
+}
+
+.about-desc h3{
+  font-family: 'Ultra', serif;
+  color: #111111;
+  font-size: 2.3rem;
+}
+
+.about-desc p{
+  color: #222222;
+  font-size: 1.6rem;
+}
+
+.card{
+  margin: 20px 0;
+  box-shadow: 0 0 10px hsla(240, 3%, 85%, 0.7);
+  border: 0px;
+}
+
+.card-title{
+  font-family: 'Ultra', serif;
+  color: #111111;
+  font-size: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  .about-img img{
+    width:100%;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1199.98px) {
+  .about-img img{
+    width:70%;
+  }
+}
